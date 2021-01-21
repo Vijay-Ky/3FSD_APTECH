@@ -1,0 +1,12 @@
+class Y
+{ 
+	final int i;
+	Y()
+	{
+		this.i = 10;
+	}
+	Y(int i)
+	{
+		this.i = 10;
+	}
+}

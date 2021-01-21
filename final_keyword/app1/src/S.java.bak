@@ -1,0 +1,7 @@
+class S
+{ 
+	final int x;
+	{
+		x = 10;
+	}
+}

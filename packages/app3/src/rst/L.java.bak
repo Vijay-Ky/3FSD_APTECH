@@ -1,0 +1,10 @@
+package rst;
+class L
+{
+	public static void main(String[]args)
+	{
+		aptech.A a1 = new aptech.A();
+		f1.test1();
+		System.out.println(a1.i);
+	}
+}

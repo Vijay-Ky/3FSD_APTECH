@@ -1,0 +1,8 @@
+class R
+{ 
+	final int i;
+	R()
+	{
+		i = 10;
+	}
+}

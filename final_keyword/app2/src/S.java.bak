@@ -1,0 +1,12 @@
+abstract class S
+{ 
+	abstract static void test();
+}
+abstract class Z extends S
+{
+	public static void main(String[] args)
+	{
+		S.test();
+	}
+}
+
