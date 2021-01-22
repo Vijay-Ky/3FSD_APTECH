@@ -1,16 +1,16 @@
-import java.util.Scanner;
 public class W
 {
 	public static void main(String[] args) 
-	{
+	{	
 		if(true)
 		{
 			return;
 		}
 		try
 		{
-			System.out.println(1);
 			return;
+			//System.out.println(1);
+			//return;
 		}
 	    catch(ArithmeticException ex)
 		{	

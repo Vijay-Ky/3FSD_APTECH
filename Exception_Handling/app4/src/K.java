@@ -6,7 +6,7 @@ public class K
 	    try
 		{
 			System.out.println(2);
-			int i = 10/0;
+			int i = 10 / 0;
 			System.out.println(3);
 		}
 	    catch(ArithmeticException ex)//throwable

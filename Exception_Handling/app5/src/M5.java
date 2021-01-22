@@ -4,7 +4,7 @@ class M5
 {
 	public static void main(String[] args) 
 	{
-		DriverManager.getConnection("");//checked type of exception requires try and catch
+		//DriverManager.getConnection("");//checked type of exception requires try and catch
 		try
 		{
 			DriverManager.getConnection("");
