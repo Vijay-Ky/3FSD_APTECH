@@ -2,7 +2,7 @@ class M2
 {
 	public static void main(String[] args) 
 	{
-			test();
+		test();
 		
 			//test();//this is the called of the test method we should keep try-catch here
 		/*try
@@ -27,7 +27,5 @@ class M2
 		catch (ClassNotFoundException ex)
 		{
 		}
-		
-		
 	}
 }

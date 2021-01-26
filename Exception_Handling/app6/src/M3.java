@@ -1,13 +1,32 @@
 class M3
 {
-	public static void main(String[] args) throws ClassNotFoundException
+	public static void main(String[] args) //throws ClassNotFoundException
 	{
-		test()
-		System.out.println("done");
+		System.out.println("begin");
+		test();	
+		/*
+		try
+		{
+			test();	
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+		*/
+		System.out.println("end");
 	}
-	static void test() throws ClassNotFoundException
+	static void test() //throws ClassNotFoundException
 	{
-		Class.forName("");//dont look for try-catch for this statement look for the try-catch while calling test() method.
+		//Class.forName("");	
+		
+		try
+		{
+			Class.forName("");	
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+		//dont look for try-catch for this statement look for the try-catch while calling test() method.
 	}
 }
 /* Throws keyword only for checked exceptions, to avoid including try-catch

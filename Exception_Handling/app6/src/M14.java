@@ -4,7 +4,7 @@ class M14
 	{
 		try
 		{
-			//System.out.println(1000);//this statement doesnt require a try catch	
+			System.out.println(1000);//this statement doesnt require a try catch	
 		}
 		catch (ClassNotFoundException ex)
 		{
