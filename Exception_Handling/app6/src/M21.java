@@ -6,10 +6,11 @@ class B
 }
 class C extends B
 {
-	C()
+	C() throws InterruptedException
 	{
-		//super();
+		super();
 		
+		/*
 		try//we cant keep try catch to resolve this prob bcz super must be the first statement
 		{
 			super();
@@ -17,7 +18,7 @@ class C extends B
 		catch (InterruptedException ex)
 		{
 		}
-	
+		*/
 	}
 }
 class M21 
