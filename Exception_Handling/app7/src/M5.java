@@ -8,8 +8,8 @@ class M5
 			System.out.println(2);
 			if(true)
 			{
-				throw ArithmeticException();
-				System.out.println(3);
+				throw new ArithmeticException();
+				//System.out.println(3);
 			}
 		}
 		catch (ArithmeticException ex)
