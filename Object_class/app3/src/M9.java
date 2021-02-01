@@ -27,7 +27,6 @@ class M9
 		System.out.println(d3.hashCode());
 		D d4 = new D(200, 100);
 		System.out.println(d4.hashCode());
-	
 	}
 }
 /*

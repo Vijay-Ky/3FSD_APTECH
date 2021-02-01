@@ -71,8 +71,7 @@ class M10
 	}
 }
 /*
-what collection
-api doing internally while identifying duplicates. It is 
+what collection api doing internally while identifying duplicates. It is 
 maintaining different buckets. to identify duplicates it is
 maintaining hashbuckets. it is only calling hashcode
 method getting a hash number choosing one bucket for that hash
@@ -110,8 +109,8 @@ hash number of first bucket. This e5 element has to compare with
 the first bucket e1 element. Then equals method is calling equals
 method comparing attribute by attrubute and we get a false. I,e 
 e5 is not same as e1, Then e5 also storing in the first bucket.
-first bucket containing 2 elements and second element
-containing 1 element. Then e6 same hash number same bucket,
+first bucket contains 2 elements and second bucket
+contains 1 element. Then e6 same hash number same bucket,
 already in first bucket two elements are there. So e6 compare
 with both, it is comparing first e1 and then only comparing with
 e5, in one bucket while storing multiple elements the order will
@@ -120,13 +119,12 @@ linked list structure. Now e6 should be compared with e1 while
 comparing we get false. Then e6 should not add straight away e6
 should compared with e5 also because e5 is also there in the same
 bucket. e5 and e6 both are calling through equals method. e5 and
-e6 both are same returning true. So getting a false. for e7 we
+e6 both are same returning true. for e7 we
 get different hash number and third bucket is allocating, there
 is no need to call the equal method, equal method is calling in a
 bucket where already some elements are there in the bucket. so it
 is a new bucket and doesnt requred to bother about storing
-element in the new bucket. hashcode confirming inequality and
-storing in the third bucket. e8 is having the same hash number 
+element in the new bucket. e8 is having the same hash number 
 of third bucket. but in third bucket already one element is there
 and calling equals method. equals method returning false, storing
 in the third bucket. e9 is having the same hash number and
@@ -134,7 +132,7 @@ going with the third bucket. in the third bucket already two
 elements are there. Calling equals method on the first element
 getting false. Calling equals method on the second element
 getting false. In the third bucket this element is adding
-successfuly.e10 has entirely new hash number and choosing
+successfuly. e10 has entirely new hash number and choosing
 different bucket and in the fourth bucket e10 element will be
 stored.
 
