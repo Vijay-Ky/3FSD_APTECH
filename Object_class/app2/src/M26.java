@@ -23,16 +23,16 @@ class M26
 		obj2.s1 = "hello";
 
 		//if any one attribute changes returns false
-		//System.out.println(obj1.equals(obj2));//true
+		System.out.println(obj1.equals(obj2));//true
 
 		I obj3 = new I();
-		//in this case obj3.i values is 0 obj3.s1 value is null
+		//in this case obj3.x values is 0 obj3.s1 value is null
 		//System.out.println(obj3.equals(obj1));//false
 
 		//s1 is null
 		I obj4 = new I();
 		obj4.x = 10;
-		//obj3.s1 is null from a null calling equals method
+		//obj4.s1 is null from a null calling equals method
 		  //we get NullPointerException
 		System.out.println(obj4.equals(obj1));
 

@@ -36,7 +36,7 @@ class M27
 		//System.out.println(j2.equals(j3));
 		//System.out.println(j3.equals(j1));
 		//System.out.println(j3.equals(j2));
-		System.out.println(j2.equals(j1));
+		//System.out.println(j2.equals(j1));
 	}
 }
 /*
