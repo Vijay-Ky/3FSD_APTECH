@@ -3,7 +3,7 @@ class A
 {
 	void test3(String s1)
 	{
-		System.out.println("from test2:" + s1);
+		System.out.println("from test3:" + s1);
 	}
 	void test3(String s1, int i, double j)
 	{
