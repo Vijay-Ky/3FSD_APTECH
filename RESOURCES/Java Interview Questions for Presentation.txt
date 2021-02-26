@@ -1,0 +1,16 @@
+Explain JDK, JRE and JVM?
+Explain public static void main(String args[]) in Java
+What are wrapper classes in Java?
+What are constructors in Java?
+What are the differences between Heap and Stack Memory in Java?
+What are access modifiers in Java?
+What is an object in Java and how is it created?
+What are the main concepts of OOPs in Java?
+Differentiate between the constructors and methods in Java?
+Difference between String, StringBuilder, and StringBuffer.
+What is Polymorphism?
+What is the difference between abstract classes and interfaces?
+What is inheritance in Java? What are the different types of inheritance in Java?
+What are the differences between Checked Exception and Unchecked Exception?
+What purpose do the keywords final, finally, and finalize? 
+
